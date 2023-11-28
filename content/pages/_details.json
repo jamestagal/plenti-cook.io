@@ -1,0 +1,25 @@
+{
+	"components": [
+		{
+			"name": "details",
+			"fields": {
+				"title": "Your desired dish?",
+				"subtitle": "Search any recipe e.g: burger, pizza, sandwich, toast.",
+				"icon": {
+					"url": "media/class-icon-2.png",
+					"alt": "Cardio & Strength"
+				},
+				"button": {
+					"title": "search",
+					"url": "."
+				}
+			}
+		}
+
+	],
+	"meta": {
+		"title": "All Recipes - Cook.io<",
+		"desc": "This is a recipe application made by codewithsadee",
+		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	}
+}

@@ -1,0 +1,150 @@
+{
+	"components": [
+		{
+			"name": "hero",
+			"fields": {
+				"title": "Your desired dish?",
+				"subtitle": "Search any recipe e.g: burger, pizza, sandwich, toast.",
+				"icon": {
+					"url": "media/class-icon-2.png",
+					"alt": "Cardio & Strength"
+				},
+				"button": {
+					"title": "search",
+					"url": "."
+				}
+			}
+		},
+		{
+			"name": "tab",
+			"fields": {
+				"title": "Welcome To Our Fitness Gym",
+				"subtitle": "About Us",
+				"body": "<p>Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat. Pellentesque porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.</p><p>Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante ipsum primis.</p>",
+				"coach": "Denis Robinson",
+				"link": {
+					"title": "Explore More",
+					"url": "."
+				},
+				"images": {
+					"banner": {
+						"url": "media/about-banner.png",
+						"alt": "Women exercising"
+					},
+					"circle1": {
+						"url": "media/about-circle-one.png",
+						"alt": "circles 1"
+					},
+					"circle2": {
+						"url": "media/about-circle-two.png",
+						"alt": "circles 2"
+					},
+					"fitness": {
+						"url": "media/fitness.png",
+						"alt": "fitness"
+					}
+				}
+			}
+		},
+		{
+			"name": "recipe_slider01",
+			"fields": {
+				"title": "Explore Fitness Life",
+				"video": {
+					"url": "https://www.youtube.com/watch?v=EKUNGQ4LmH8"
+				},
+				"image": {
+					"url": "media/video-banner.jpg",
+					"alt": "Man lifting weights"
+				},
+				"link": {
+					"title": "Watch More",
+					"url": "."
+				}
+			}
+		},
+		{
+			"name": "recipe_slider02",
+			"fields": {
+				"title": "Fitness Classes For Every Goal",
+				"subtitle": "Our Classes",
+				"items": [
+					{
+						"name": "Weight Lifting",
+						"url": ".",
+						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+						"image": {
+							"url": "media/class-1.jpg",
+							"alt": "Weight Lifting"
+						},
+						"icon": {
+							"url": "media/class-icon-1.png",
+							"alt": "Weight Lifting"
+						},
+						"bars": {
+							"label": "Class Full",
+							"percent": 85
+						}
+					},
+					{
+						"name": "Cardio & Strength",
+						"url": ".",
+						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+						"image": {
+							"url": "media/class-2.jpg",
+							"alt": "Cardio & Strength"
+						},
+						"icon": {
+							"url": "media/class-icon-2.png",
+							"alt": "Cardio & Strength"
+						},
+						"bars": {
+							"label": "Class Full",
+							"percent": 70
+						}
+					},
+					{
+						"name": "Power Yoga",
+						"url": ".",
+						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+						"image": {
+							"url": "media/class-3.jpg",
+							"alt": "Power Yoga"
+						},
+						"icon": {
+							"url": "media/class-icon-3.png",
+							"alt": "Power Yoga"
+						},
+						"bars": {
+							"label": "Class Full",
+							"percent": 90
+						}
+					},
+					{
+						"name": "The Fitness Pack",
+						"url": ".",
+						"body": "Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.",
+						"image": {
+							"url": "media/class-4.jpg",
+							"alt": "The Fitness Pack"
+						},
+						"icon": {
+							"url": "media/class-icon-4.png",
+							"alt": "The Fitness Pack"
+						},
+						"bars": {
+							"label": "Class Full",
+							"percent": 60
+						}
+					}
+				],
+				"background": "media/classes-bg.png"
+			}
+		}
+	],
+	"meta": {
+		"title": "Home",
+		"desc": "Fitlife is a theme for the Plentico static site generator",
+		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	}
+}
