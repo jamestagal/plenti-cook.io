@@ -179,7 +179,7 @@
 
             <div class="card-body">
               <h3 class="title-small">
-                <a href="./detail.html" class="card-link"
+                <a href="details" class="card-link"
                   >Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorem, quaerat quos! Consequatur id explicabo suscipit
                   perspiciatis blanditiis doloremque eveniet officia!</a
@@ -215,7 +215,7 @@
         </li>
 
         <li class="slider-item" data-slider-item>
-          <a href="./recipes.html" class="load-more-card has-state">
+          <a href="recipes" class="load-more-card has-state">
             <span class="label-large">Show more</span>
 
             <span class="material-symbols-outlined" aria-hidden="true"
